@@ -4,24 +4,28 @@ A modern, responsive airline homepage built with React and Vite.
 
 ## Tech Stack
 
-- **React 18**: Modern React with hooks
-- **Vite**: Fast build tool and development server
-- **Lucide React**: Beautiful, customizable icons
-- **CSS3**: Modern styling with flexbox and grid
-- **Date-fns**: Date manipulation utilities
+- **React 18**
+- **Vite**
+- **Lucide React**
+- **CSS3**
+- **Date-fns**
 
 ## Getting Started
+
+**Notice: You need to make sure that you could use npm on your PC.**
 
 1. **Install dependencies**:
 
    ```bash
    npm install
    ```
+
 2. **Start development server**:
 
    ```bash
    npm run dev
    ```
+
 3. **Build for production**:
 
    ```bash
@@ -39,14 +43,10 @@ src/
 │   ├── Services.jsx        # Service highlights
 │   ├── Footer.jsx          # Footer with links and social
 │   └── *.css              # Component-specific styles
+├── assets/
+│   ├── airplane.png       # Icon
+│   └── hero-bg.jpg        # Backgroud picture
 ├── App.jsx                # Main application component
 ├── App.css                # Global styles
 └── index.css              # Base styles
 ```
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)

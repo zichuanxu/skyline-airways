@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2024 Skyline Airways. All rights reserved.</p>
+          <p>&copy; 2025 Skyline Airways. All rights reserved.</p>
           <div className="footer-links">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>

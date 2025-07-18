@@ -12,10 +12,10 @@ const Header = () => {
 
         <nav className="nav">
           <a href="#" className="nav-link active">Book</a>
-          <a href="#" className="nav-link">Flight Status</a>
-          <a href="#" className="nav-link">Check-in</a>
-          <a href="#" className="nav-link">My Trips</a>
-          <a href="#" className="nav-link">Destinations</a>
+          <a href="#" className="nav-link">Flight Info</a>
+          <a href="#" className="nav-link">Holidays</a>
+          <a href="#" className="nav-link">My Bookings</a>
+          <a href="#" className="nav-link">Business</a>
         </nav>
 
         <div className="header-actions">
