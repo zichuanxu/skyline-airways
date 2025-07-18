@@ -17,11 +17,6 @@ const Services = () => {
       icon: <Clock size={48} />,
       title: 'On-Time Performance',
       description: 'We pride ourselves on punctuality with industry-leading on-time departure rates.'
-    },
-    {
-      icon: <Award size={48} />,
-      title: 'Premium Service',
-      description: 'Enjoy exceptional service from our dedicated crew members committed to your comfort.'
     }
   ]
 
