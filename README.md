@@ -12,7 +12,7 @@ A modern, responsive airline homepage built with React and Vite.
 
 ## Getting Started
 
-**Notice: You need to make sure that you could use npm on your PC.**
+**Notice: You need to make sure that you could use [npm](https://nodejs.org/en/download) on your PC.**
 
 1. **Install dependencies**:
 

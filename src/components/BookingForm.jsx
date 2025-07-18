@@ -34,7 +34,7 @@ const BookingForm = () => {
   const [dropoffDate, setDropoffDate] = useState('2025-08-27')
   const [pickupTime, setPickupTime] = useState('10:00')
   const [dropoffTime, setDropoffTime] = useState('10:00')
-  const [driverAge, setDriverAge] = useState('30-65')
+
   const [carClasses, setCarClasses] = useState({
     economy: true,
     compact: true,
@@ -301,7 +301,7 @@ const BookingForm = () => {
         alert('Please select at least one vehicle class')
         return
       }
-      alert(`Searching car rentals from ${pickupLocation} to ${dropoffLocation} from ${pickupDate} ${pickupTime} to ${dropoffDate} ${dropoffTime} for driver age ${driverAge}. Vehicle classes: ${selectedClasses.join(', ')}. Transmission: ${transmission}, Fuel: ${fuelType}`)
+      alert(`Searching car rentals from ${pickupLocation} to ${dropoffLocation} from ${pickupDate} ${pickupTime} to ${dropoffDate} ${dropoffTime}. Vehicle classes: ${selectedClasses.join(', ')}. Transmission: ${transmission}, Fuel: ${fuelType}`)
     }
   }
 
@@ -880,23 +880,7 @@ const BookingForm = () => {
                   </div>
                 </div>
 
-                <div className="input-group">
-                  <label>Driver Age</label>
-                  <div className="passenger-selector">
-                    <div className="passenger-display">
-                      <Car size={20} />
-                      <select
-                        value={driverAge}
-                        onChange={(e) => setDriverAge(e.target.value)}
-                        className="age-select"
-                      >
-                        <option value="25-29">25-29 years</option>
-                        <option value="30-65">30-65 years</option>
-                        <option value="65+">65+ years</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
+
               </div>
 
               {/* Vehicle Class Selection - Inspired by ANA */}
